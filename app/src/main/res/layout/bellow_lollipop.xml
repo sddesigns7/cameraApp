@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mobapptut.com.zambelislightscamapp.bellowLollipop"
+    android:baselineAligned="false"
+    android:id="@+id/containerImg">
+
+
+    <FrameLayout
+        android:id="@+id/camera_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false">
+
+
+    </FrameLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--<ImageView-->
+            <!--android:id="@+id/imageView1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@mipmap/ic_launcher" />-->
+
+        <!--<ImageView-->
+        <!--android:id="@+id/imageView2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@mipmap/ic_launcher" />-->
+        <ImageView android:id="@+id/ImageView01"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/captured_image"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:contentDescription="desc" />
+
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/imageView"-->
+        <!--android:layout_marginBottom="83dp"-->
+        <!--android:src="@mipmap/lamp"-->
+        <!--android:scaleType="fitCenter"-->
+        <!--android:baselineAlignBottom="false"-->
+        <!--android:alpha="50"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:minHeight="50dp" />-->
+
+
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/plusBtnImg"
+        android:layout_gravity="left|bottom"
+        android:src="@mipmap/zoom_in2"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/imageView2"
+        android:background="#00ffffff" />
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/minusBtnImg"
+        android:layout_gravity="left|bottom"
+        android:src="@mipmap/zoom_out2"
+        android:layout_above="@+id/plusBtnImg"
+        android:layout_toRightOf="@+id/imageView2"
+        android:background="#00ffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Back!"
+        android:id="@+id/backButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="right|bottom"
+        android:layout_alignParentRight="true" />
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Save Picture"-->
+        <!--android:id="@+id/button12"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"/>-->
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="capture_button"-->
+        <!--android:id="@+id/button"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true" />-->
+
+</RelativeLayout>

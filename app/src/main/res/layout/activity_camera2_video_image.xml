@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mobapptut.com.zambelislightscamapp.zambelislightscamapp">
+
+    <TextureView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textureView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <!--<ImageButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/videoOnlineImageButton"-->
+        <!--android:contentDescription="@string/video_button"-->
+        <!--android:src="@mipmap/btn_video_online"-->
+        <!--android:layout_marginBottom="36dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_marginEnd="49dp" />-->
+
+    <!--<ImageButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/cameraImageButton2"-->
+        <!--android:contentDescription="@string/camera_button"-->
+        <!--android:src="@mipmap/btn_camera"-->
+        <!--android:layout_alignTop="@+id/videoOnlineImageButton"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginStart="57dp" />-->
+
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/imageView"-->
+        <!--android:layout_marginBottom="83dp"-->
+        <!--android:src="@mipmap/lamp"-->
+        <!--android:scaleType="fitCenter"-->
+        <!--android:baselineAlignBottom="false"-->
+        <!--android:alpha="50"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:minHeight="50dp" />-->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="29dp" />
+
+    <!--<ImageView android:id="@+id/ImageView01"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:adjustViewBounds="true" />-->
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/plusBtnImg"
+        android:layout_gravity="left|bottom"
+        android:src="@mipmap/zoom_in2"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/imageView2"
+        android:background="#00ffffff" />
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/minusBtnImg"
+        android:layout_gravity="left|bottom"
+        android:src="@mipmap/zoom_out2"
+        android:layout_above="@+id/plusBtnImg"
+        android:layout_toRightOf="@+id/imageView2"
+        android:background="#00ffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Back!"
+        android:id="@+id/backButton"
+        android:layout_gravity="right|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Save Picture"-->
+        <!--android:id="@+id/button12"-->
+        <!--android:onClick="takePicture"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"/>-->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView android:id="@+id/ImageView01"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>
